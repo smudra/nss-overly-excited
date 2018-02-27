@@ -37,16 +37,27 @@ Create an addExcitement function that should console.log() rows of words. It sho
 Example output:
 
 The
+
 The walrus
+
 The walrus danced
+
 The walrus danced through
+
 The walrus danced through the
+
 The walrus danced through the trees
+
 The walrus danced through the trees in
+
 The walrus danced through the trees in the
+
 The walrus danced through the trees in the light
+
 The walrus danced through the trees in the light of
+
 The walrus danced through the trees in the light of the
+
 The walrus danced through the trees in the light of the moon
 ...
 
@@ -77,7 +88,7 @@ Your job is to read the following English statement and write the equivalent in 
 If the current value of the counter variable can be evenly divided by 3 - using the JavaScript remainder operator - then add a single exclamation point (!) to the output.
 
 Example output:
-
+```
 The
 The walrus
 The walrus danced!
@@ -89,14 +100,14 @@ The walrus danced! through the trees! in the
 The walrus danced! through the trees! in the light!
 The walrus danced! through the trees! in the light! of
 The walrus danced! through the trees! in the light! of the
-The walrus danced! through the trees! in the light! of the moon!
+The walrus danced! through the trees! in the light! of the moon!```
 ...
 
 ## Even More Excited
 Add logic in the addExcitement function to the increase the number of exclamation points after every third word. The number of exclamation points (!) will be determined by how many times the counter variable can be divided by 3.
 
 Example output:
-
+```
 The
 The walrus
 The walrus danced!
@@ -109,6 +120,7 @@ The walrus danced! through the trees!! in the light!!!
 The walrus danced! through the trees!! in the light!!! of
 The walrus danced! through the trees!! in the light!!! of the
 The walrus danced! through the trees!! in the light!!! of the moon!!!!
+```
 ...
 
 ## Function Arguments
@@ -118,13 +130,14 @@ Add a new argument to the function so that a developer can specify which charact
 addExcitement(sentence, "?");
 ```
 Example output:
-
+```
 The
 The walrus
 The walrus danced?
 The walrus danced? through
 The walrus danced? through the
 The walrus danced? through the trees??
+```
 
 etc..
 
