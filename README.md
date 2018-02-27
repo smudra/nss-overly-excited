@@ -107,8 +107,8 @@ The walrus danced! through the trees! in the light! of the moon!```
 Add logic in the addExcitement function to the increase the number of exclamation points after every third word. The number of exclamation points (!) will be determined by how many times the counter variable can be divided by 3.
 
 Example output:
-```
-The
+
+```The
 The walrus
 The walrus danced!
 The walrus danced! through
@@ -119,8 +119,7 @@ The walrus danced! through the trees!! in the
 The walrus danced! through the trees!! in the light!!!
 The walrus danced! through the trees!! in the light!!! of
 The walrus danced! through the trees!! in the light!!! of the
-The walrus danced! through the trees!! in the light!!! of the moon!!!!
-```
+The walrus danced! through the trees!! in the light!!! of the moon!!!!```
 ...
 
 ## Function Arguments
