@@ -32,7 +32,11 @@ let addNewExcitement = (newArray, newChar) => {
     let newspace = " ";
     for (var x = 0; x < newArray.length; x++) {
         overlyExcited += newArray[x];
-        overlyExcited += "!"
+
+        if((x+1) % 3 === 0) {
+            overlyExcited += newChar.repeat((x+1)/3);
+        };
+        
         overlyExcited += newspace;
 
         console.log(overlyExcited);
